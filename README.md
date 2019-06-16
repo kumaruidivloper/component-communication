@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
+## Rename local Branch
+cmd: git branch -m 001-component-communication-child-to-parent
+
+## Application Create
+Step1: ng new component-communication --style=scss --routing
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

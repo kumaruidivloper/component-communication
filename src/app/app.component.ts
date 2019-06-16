@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
+
 export class AppComponent {
-  title = 'component-communication';
+  message: String = '<data>';
+
+  showDataFromParent = function (data) {
+    this.message = data;
+  }
+
 }
