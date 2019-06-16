@@ -1,4 +1,6 @@
-<div>
-  <h3 (click)="sendData()">Click here (<span style="font-size:14px">Send data from child to 
-parent</span>)</h3>
-</div>
+<h3>Child Component</h3>
+
+<label class="m-r-10">Child1 Component</label>
+<input type="text" #ccomponent (keyup)="onChange(ccomponent.value)"/>
+
+<p>Value of parent component is: <i class="bold-text">{{ PData }}</i></p>

@@ -1,6 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<span style="font-size:15px;font-weight: bold">{{message}}</span>
-
-<app-child1 (sendMessage)="showDataFromParent($event)"></app-child1>
-
-<router-outlet></router-outlet>
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <app-parent></app-parent>
+</div>

@@ -8,6 +8,9 @@ cmd: git branch -m 001-component-communication-child-to-parent
 ## Application Create
 Step1: ng new component-communication --style=scss --routing
 
+## Refrence Link
+https://appdividend.com/2018/01/28/angular-input-output-tutorial-example-scratch/
+
 
 ## Development server
 
